@@ -1,0 +1,12 @@
+name: CostOnCommand
+main: com.shado.costoncommand.CostOnCommand
+version: 2.1
+authors:
+  - shadoking75
+description: Adds a cost to using commands. Supports permissions (Group Manager)
+commands:
+    costoncommand:
+        aliases: [coc]
+        description: Adds prices to commands
+        default: false
+        usage: reload
