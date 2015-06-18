@@ -1,6 +1,5 @@
 package com.shado.costoncommand;
 
-import java.io.File;
 import java.util.HashMap;
 import java.util.Set;
 import java.util.logging.Logger;
@@ -24,8 +23,6 @@ import org.bukkit.plugin.RegisteredServiceProvider;
 @SuppressWarnings("deprecation")
 public class CostOnCommand extends JavaPlugin implements Listener {
 
-    public static File pluginFolder;
-    public static File configFile;
     public String configName = "Commands.yml";
     public String nodeBase = "costoncommand.";
     boolean firstTime = false;
@@ -76,7 +73,6 @@ public class CostOnCommand extends JavaPlugin implements Listener {
     }
 
     private void loadData(ConfigurationSection d) {
-
         HashMap<String, Integer> map;
         for (String s : d.getKeys(false)) {
             map = new HashMap<String, Integer>();
@@ -85,11 +81,6 @@ public class CostOnCommand extends JavaPlugin implements Listener {
                 map.put(r, c.getInt(r, 50));
             }
             data.put(s, map);
-        }
-
-        for (String cmd : d.getKeys(false)) {
-            //d.getConfigurationSection(cmd);
-            //data.put(cmd, 
         }
     }
 
