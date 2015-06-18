@@ -9,6 +9,22 @@ I don't intend to update the plugin past 1.7.10 as this plugin is for the server
 
 This plugin is for 1.7.10 and requires Vault to use.
 
+To work with permissions, after you add a group to the config, you must add in the permission "costoncommand.group" to the matching group
+
+For Example-
+
+If I have this in config.yml
+
+Commands:
+  back:
+    default: 100
+	vip1: 50
+	vip2: 25
+
+	Then in the group management plug-in (PermissionsEx, Group Manager, etc.), you have to add costoncommand.vip1 to the VIP group and
+	costoncommand.vip2 to the VIP 2 group.
+	
+	
 Here's a list of things I want to implement
 - Check if the command could fire (don't want a player charged for a command they couldn't even perform)
 - Add an option for Ops (currently they bypass all costs)
