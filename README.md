@@ -21,8 +21,8 @@ Commands:
 	vip1: 50
 	vip2: 25
 
-	Then in the group management plug-in (PermissionsEx, Group Manager, etc.), you have to add costoncommand.vip1 to the VIP group and
-	costoncommand.vip2 to the VIP 2 group.
+Then in the group management plug-in (PermissionsEx, Group Manager, etc.), you have to add costoncommand.vip1 to the VIP group and
+costoncommand.vip2 to the VIP 2 group.
 	
 	
 Here's a list of things I want to implement
