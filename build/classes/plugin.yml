@@ -1,6 +1,6 @@
 name: CostOnCommand
 main: com.shado.costoncommand.CostOnCommand
-version: 2.2
+version: 2.3
 authors:
   - shadoking75
 description: Adds a cost to using commands. Supports permissions (Group Manager)

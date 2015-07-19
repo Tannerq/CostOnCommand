@@ -1,0 +1,10 @@
+ReloadHelp: Reload the plugin config file.
+OnReload: Config Reloaded
+InvalidCommand: is not a command!
+InvalidAccess: You do no have access to this command!
+HelpMessage: use /coc help for usage.
+DefaultError: There is an error in the CoC config files, please contact an admin
+ShortFundsBeginning: You are missing
+ShortFundsEnding: to use this command.
+PlayerBalance: was taken from your balance.
+NewBalance: New Balance
